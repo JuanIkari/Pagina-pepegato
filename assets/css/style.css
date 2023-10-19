@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -7,9 +8,8 @@ body {
   margin: 0;
 }
 
-main {
-  border-left: 10px solid #96ba4e;
-  border-right: 10px solid #96ba4e;
+main{
+  padding: 10px;
 }
 
 .main-header img {
@@ -24,7 +24,6 @@ main {
 
 aside {
   background-color: #f0f0f0;
-  flex: 0.7;
   padding: 5px;
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -55,21 +54,9 @@ aside {
   background-color: #ddd;
 }
 
-main {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-section {
-  flex: 3;
-  margin-left: 20px;
-}
-
 .news-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .news-section h2{
@@ -86,7 +73,6 @@ section {
   margin-top: 1em;
   padding: 0.6em 1em 0.6em;
   position: relative;
-  width: 100%;
   border: 1px solid #ccc;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -291,7 +277,24 @@ input[type="reset"]:hover {
   transition: 0.5s;
 }
 
+@media (max-widht: 575px) {
+  .noticias {
+    width: 90%;
+  }
+
+  .noticias figure img {
+    margin-bottom: 20px;
+  }
+}
+
 @media (min-width: 576px) {
+  
+  section {
+    margin-left: 20px;
+  }
+  .noticias{
+    width: 90%;
+  }
   .noticias figure img {
     margin-bottom: 50px;
   }
@@ -316,14 +319,31 @@ input[type="reset"]:hover {
 }
 
 @media (min-width: 992px) {
+  main { 
+    border-left: 10px solid #96ba4e;
+    border-right: 10px solid #96ba4e; 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  section {
+    flex: 3;
+    margin-left: 20px;
+  }
+
   .noticias {
     width: 360px;
+  }
+
+  .news-section {
+    justify-content: space-evenly;
   }
 }
 
 @media (min-width: 1200px) {
   .noticias {
-    width: 410px;
+    width: 40%;
   }
 
   .footer-info {
