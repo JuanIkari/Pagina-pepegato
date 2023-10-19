@@ -66,10 +66,16 @@ section {
   margin-left: 20px;
 }
 
-.fila {
+.news-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.news-section h2{
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 2em;
 }
 
 .noticias {
@@ -88,7 +94,7 @@ section {
 }
 
 .noticias header {
-  display: flex;
+  display: block;
   height: 68px;
   align-items: center;
 }
