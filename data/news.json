@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Alimentos adecuados para tu michi uwu",
+    "image": "noticia1.png",
+    "description": "Todos queremos que nuestros gatos estén sanos y fuertes. Para ello, la nutrición es el pilar fundamental. Para poder aportarle los nutrientes necesarios hay que tener en cuenta...",
+    "link": "https://www.muyinteresante.es/mascotas/7275.html"
+  },
+  {
+    "title": "Entretenimiento para gatos",
+    "image": "noticia2.png",
+    "description": "Independientemente de la personalidad de tu gato, a todos les encanta jugar desde que son gatitos, pero, aunque al crecer dejen de ser tan curiosos, es muy importante mantener activo a tu gato para beneficio de su salud.",
+    "link": "https://purina.com.mx/purina/gatos/juegos-y-juguetes-para-gatos-adultos-manten-activa-a-tu-mascota"
+  },
+  {
+    "title": "¿Cómo asear a tu gato adecuadamente?",
+    "image": "noticia3.png",
+    "description": "La limpieza de nuestros queridos felinos puede ser un desafío, especialmente cuando se trata de bañarlos. Muchos gatos no disfrutan estar sumergidos en agua, lo que puede convertir el proceso en una tarea...",
+    "link": "https://soyungato.com/como-limpiar-a-un-gato-sin-banarlo-103.html"
+  },
+  {
+    "title": "¿Qué no darle a tu gato?",
+    "image": "noticia4.png",
+    "description": "Cuando se trata de tu gato, quieres asegurarte de que tiene el mejor tipo de alimento para sus necesidades nutricionales. De vez en cuando, puedes tener la tentación de darle restos de la mesa y golosinas especiales...",
+    "link": "https://www.hillspet.com.mx/cat-care/nutrition-feeding/toxic-foods-for-cats"
+  }
+]
